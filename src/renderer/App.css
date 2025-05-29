@@ -1,0 +1,104 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+
+/** Core CSS */
+body {
+  position: relative;
+  color: white;
+  height: 100vh;
+  background: #74776b;
+  font-family: sans-serif;
+  overflow-y: hidden;
+  display: flex;
+  margin: 0px;
+  width: 800px;
+}
+
+nav {
+  background: #191716;
+}
+
+button {
+  font-size: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #bee3db;
+  text-decoration: none;
+  height: fit-content;
+  width: fit-content;
+  margin: 10px;
+}
+
+textarea {
+  resize: none;
+  height: 125px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/** Classes CSS */
+#root {
+  width: 100%;
+}
+
+.primary-nav {
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+
+.secondary-nav {
+  padding: 5px 10px 10px 10px;
+}
+
+.page-wrapper {
+  padding: 15px;
+}
+
+.content-section {
+  background-color: #74776b;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.content-section > h2 {
+  color: #191716;
+}
+
+.nav-selected {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: #570000;
+  margin-top: 5px;
+}
+
+.input-error {
+  border: 3px solid #570000;
+  color: #570000;
+}
+
+.label-error {
+  color: #570000;
+}
+
+.submit-button {
+  align-self: flex-end;
+  margin-top: 5px;
+}
+
+.copy-button {
+  align-self: flex-end;
+  margin-top: 5px;
+}
